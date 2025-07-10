@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Raleway", sans-serif;
 font-family: "Inter", sans-serif; */
+
 /* common css start */
 * {
   margin: 0;
@@ -80,3 +81,31 @@ h6 {
 }
 
 /* banner area end  */
+/* call to action start  */
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 0;
+}
+.cta-left h3 {
+  color: #252432;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cta-left p {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  margin: 23px 0;
+}
+.cta-right-img img {
+  border: 1px solid #000;
+  border-radius: 48px;
+}
+/* call to action end */
