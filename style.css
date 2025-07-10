@@ -234,3 +234,71 @@ h6 {
   border-radius: 48px;
 }
 /* focus area end  */
+/* get in touch area start  */
+.get-in-touch-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 70px 0;
+}
+.get-in-touch-text h2 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 97px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 116.4px */
+}
+.get-in-touch-form p {
+  margin-bottom: 10px;
+}
+.get-in-touch-form p label {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 21.6px */
+  margin-bottom: 20px;
+}
+.get-in-touch-form input[type="email"],
+[type="text"] {
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  background: #fff;
+  padding: 20px 32px;
+}
+.get-in-touch-form input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+.get-in-touch-form textarea {
+  height: 135px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  width: 500px;
+  background: #fff;
+}
+.get-in-touch-form textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+.get-in-touch-form input[type="email"],
+[type="text"],
+textarea:focus {
+  outline: none;
+}
+.form-btn {
+  width: 500px;
+}
+/* get in touch area end  */
