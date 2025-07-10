@@ -203,3 +203,34 @@ h6 {
   font-size: 14px;
 }
 /* testimonial area end  */
+/* focus area start  */
+.focus-area-wrapper {
+  background-color: #fff;
+  padding: 70px 150px;
+}
+.focus-area-contnt {
+  text-align: center;
+}
+.focus-area-contnt h2 {
+  color: #000;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 60px */
+}
+.focus-area-contnt p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  margin: 20px 0;
+}
+.focus-btn {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.focus-area-img {
+  text-align: center;
+}
+.focus-area-img img {
+  border-radius: 48px;
+}
+/* focus area end  */
